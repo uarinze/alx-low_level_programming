@@ -1,5 +1,11 @@
 #include <stdio.h>
-/* prints some character */
+/**
+ * main - Entry point
+ *
+ * prints some character
+ *
+ * Return: Always 0 (Success)
+ */
 
 int main(void)
 {
