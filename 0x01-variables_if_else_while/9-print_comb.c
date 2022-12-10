@@ -16,8 +16,10 @@ int main(void)
 	for (i = 48; i <= 57; i++)
 	{
 		putchar(i);/* prints the number */
-		putchar(44);/* adds a comma*/
-		putchar(32);/* adds a space*/
+		if (i != 57) {
+			putchar(44);/* adds a comma*/
+			putchar(32);/* adds a space*/
+		}
 	}
 
 	putchar('\n');
