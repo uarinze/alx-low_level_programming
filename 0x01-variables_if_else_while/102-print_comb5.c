@@ -27,7 +27,7 @@ int main(void)
 						putchar(i);/*adds first digit of first pair*/
 						putchar(j);/*adds second digit of first pair*/
 					}
-					putchar(32);/*adds space*/
+					if (i != '') putchar(32);/*adds space*/
 
 					if (j != l && j < l && i <= k)
 					{
