@@ -7,7 +7,7 @@
  *
  * Prints to standard error
  *
- * Return: 1 (Unsuccessful) 
+ * Return: 1 (Unsuccessful)
  **/
 
 int main(void)
