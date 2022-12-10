@@ -26,14 +26,9 @@ int main(void)
 					{
 						putchar(i);/*adds first digit of first pair*/
 						putchar(j);/*adds second digit of first pair*/
-					}
-					if (i != '') putchar(32);/*adds space*/
-
-					if (j != l && j < l && i <= k)
-					{
+						putchar(45);/*adds hyphen/space*/
 						putchar(k);/*adds first digit of second pair*/
 						putchar(l);/*adds second digit of second pair*/
-
 					}
 					if (k + l != 113)
 					{
