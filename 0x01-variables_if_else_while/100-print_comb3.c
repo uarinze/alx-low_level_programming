@@ -7,7 +7,7 @@
  *
  * Prints combination of two digits
  *
- * Return - 0 (Success)
+ * Return: Always 0 (Success)
  **/
 
 int main(void)
@@ -25,7 +25,7 @@ int main(void)
 				if (i != 56 && j != 57)
 				{
 					putchar(44);
-					putchar(20);
+					putchar(32);
 				}
 			}
 		}
