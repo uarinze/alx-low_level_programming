@@ -26,11 +26,11 @@ int main(void)
 					{
 						putchar(i);/*adds first digit of first pair*/
 						putchar(j);/*adds second digit of first pair*/
-						putchar(45);/*adds hyphen/space*/
+						putchar(32);/*adds space*/
 						putchar(k);/*adds first digit of second pair*/
 						putchar(l);/*adds second digit of second pair*/
 					}
-					if (k + l != 113)
+					if (k + l != 113 && k + l != 32)
 					{
 						putchar(44);/* adds comma*/
 						putchar(32);/*adds space*/
