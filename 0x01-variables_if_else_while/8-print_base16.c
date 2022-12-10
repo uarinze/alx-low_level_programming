@@ -6,7 +6,7 @@
  *
  * prints hexadecimal numbers
  *
- * Return 0 (Success)
+ * Return: Always 0 (Success)
  */
 
 int main (void)
@@ -14,7 +14,7 @@ int main (void)
 	char i;
 
 	for (i = 1; i >= 15; i++)
-		putchar('i');
+		putchar(i);
 	putchar('\n');
 
 	return (0);
