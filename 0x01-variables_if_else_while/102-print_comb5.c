@@ -22,13 +22,18 @@ int main(void)
 			{
 				for (l = 48; l <= 57; l++)
 				{
-					if (j != l && j < l && i <=k)
+					if (j != l && j < l && i <= k)
 					{
 						putchar(i);/*adds first digit of first pair*/
 						putchar(j);/*adds second digit of first pair*/
-						putchar(32);/*adds space*/
+					}
+					putchar(32);/*adds space*/
+
+					if (j != l && j < l && i <= k)
+					{
 						putchar(k);/*adds first digit of second pair*/
 						putchar(l);/*adds second digit of second pair*/
+
 					}
 					if (k + l != 113)
 					{
