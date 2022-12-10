@@ -11,9 +11,9 @@
 int main(void)
 {
 /*	int c; */
-	for( int c = 97; c <= 122; c++) {
+	for (char c = 97; c <= 122; c++) {
 	       putchar(c);
-	       putchar("\n");
+	       putchar('\n');
 	}
 	Return 0
 }
