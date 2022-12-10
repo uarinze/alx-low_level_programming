@@ -22,7 +22,7 @@ int main(void)
 			{
 				for (l = 48; l <= 57; l++)
 				{
-					if (i + j < k + l && i <= k)
+					if (i <= k && j != 32 && l != 32)
 					{
 						putchar(i);/*adds first digit of first pair*/
 						putchar(j);/*adds second digit of first pair*/
