@@ -18,11 +18,12 @@ int main(void)
 	{
 		for (j = 48; j <= 57; j++)
 		{
+			if (i != j
 			for (k = 48; k <= 57; k++)
 			{
 				for (l = 48; l <= 57; l++)
 				{
-					if (i != j && i < j && k != l && k < l)
+					if (j != l && j < l)
 					{
 						putchar(i);/*adds first digit of first pair*/
 						putchar(j);/*adds second digit of first pair*/
