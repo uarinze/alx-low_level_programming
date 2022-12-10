@@ -10,8 +10,8 @@
  */
 int main(void)
 {
-/*	int c; */
-	for (char c = 97; c <= 122; c++) {
+	char c; 
+	for (c = 97; c <= 122; c++) {
 	       putchar(c);
 	       putchar('\n');
 	}
