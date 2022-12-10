@@ -30,7 +30,7 @@ int main(void)
 						putchar(k);/*adds first digit of second pair*/
 						putchar(l);/*adds second digit of second pair*/
 					}
-					if (i + j + k + l != 227 && j != l && j < l && i < k)
+					if (192 <= i + j + k + l < 227)
 					{
 						putchar(44);/* adds comma*/
 						putchar(32);/*adds space*/
