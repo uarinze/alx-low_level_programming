@@ -12,3 +12,16 @@ void print_putchar(void)
 	}
 	putchar(10);
 }
+
+void print_alphabet(void)
+{
+	int p_a[] = {97..122, 65..90};
+
+	int i;
+
+	for (i = 0; i < 52; i++)
+	{
+		putchar(p_a[i]);
+	}
+	putchar(10);
+}
