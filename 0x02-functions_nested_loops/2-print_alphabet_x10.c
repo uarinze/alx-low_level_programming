@@ -1,4 +1,5 @@
-#include "2-main.h"
+#include "main.h"
+
 /**
  * main - entry point
  *

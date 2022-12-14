@@ -10,7 +10,23 @@
 
 int main(void)
 {
-	print_alphabet();
+	
+	void print_alphabet(void)
+	{
+		int p_a[52];
 
-	return (0);	
+		int a, b, c, d, i;
+
+		b = 0;
+		d = 26;
+
+		for (a = 97; a <= 122; a++)
+		{
+			p_a[b] = a;
+			b++;
+		}
+		print_alphabet();
+
+		return (0);
+	}
 }

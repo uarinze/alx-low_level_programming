@@ -1,19 +1,17 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-#include <stdio.h>
-
 void print_putchar(void)
 {
-	int _putchar[8] = {95, 112, 117, 116, 99, 104, 97, 114};
+	int pchar[8] = {95, 112, 117, 116, 99, 104, 97, 114};
 	
 	int i;
 
 	for (i = 0; i < 8; i++)
 	{
-		putchar(_putchar[i]);
+		_putchar(pchar[i]);
 	}
-	putchar(10);
+	_putchar(10);
 }
 
 void print_alphabet(void)
@@ -38,9 +36,31 @@ void print_alphabet(void)
 
 	for (i = 0; i < 52; i++)
 	{
-		putchar(p_a[i]);
+		_putchar(p_a[i]);
 	}
-	putchar(10);
+	_putchar(10);
 }
 
+void print_alphabet_x10(void)
+{
+	int p_a[26];
+
+	int a, b, i, j;
+
+	b = 0;
+
+	for (a = 97; a <= 122; a++)
+	{
+		p_a[b] = a;
+		b++;
+	}
+	for (j = 1; j <= 10; j++)
+	{
+		for(i = 0; 1 < 26; i++)
+		{
+			_putchar(p_a[i]);
+		}
+	_putchar(10);
+	}
+}
 #endif
