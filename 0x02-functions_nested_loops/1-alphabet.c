@@ -7,7 +7,7 @@ void print_alphabet(void)
 	int a, b, i;
 
 	b = 0;
-	
+
 	for (a = 97; a <= 122; a++)
 	{
 		p_a[b] = a;

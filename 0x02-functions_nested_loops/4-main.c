@@ -3,6 +3,8 @@
 /**
  * main - check code.
  *
+ * description - indicates if it is alphabets
+ *
  * Return: Always 0.
  */
 int main(void)

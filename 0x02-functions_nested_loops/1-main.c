@@ -3,6 +3,8 @@
 /**
  * main - check the code
  *
+ * description - prints alphabets
+ *
  * Return: Always 0.
  */
 

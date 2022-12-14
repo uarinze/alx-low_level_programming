@@ -3,6 +3,8 @@
 /**
  * main - check the code
  *
+ * description - prints alphabet x10
+ *
  * Return: Always 0.
  */
 
