@@ -1,5 +1,7 @@
 #include "main.h"
 
+/* Description: prints the alphabet */
+
 void print_alphabet(void)
 {
 	int p_a[26];

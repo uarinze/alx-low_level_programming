@@ -1,5 +1,7 @@
 #include "main.h"
 
+/*Description -  checks if it is lowercase */
+
 int _islower(int c)
 {
 	int i = c;
