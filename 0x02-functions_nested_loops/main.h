@@ -2,7 +2,7 @@
 
 void print_putchar(void)
 {
-	int _putchar[] = {95, 112, 117, 116, 99, 104, 97, 114};
+	int _putchar[8] = {95, 112, 117, 116, 99, 104, 97, 114};
 	
 	int i;
 
