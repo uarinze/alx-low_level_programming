@@ -1,6 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+
 void print_putchar(void)
 {
 	int pchar[8] = {95, 112, 117, 116, 99, 104, 97, 114};
@@ -9,9 +10,9 @@ void print_putchar(void)
 
 	for (i = 0; i < 8; i++)
 	{
-		_putchar(pchar[i]);
+		putchar(pchar[i]);
 	}
-	_putchar(10);
+	putchar(10);
 }
 
 void print_alphabet(void)
@@ -36,9 +37,9 @@ void print_alphabet(void)
 
 	for (i = 0; i < 52; i++)
 	{
-		_putchar(p_a[i]);
+		putchar(p_a[i]);
 	}
-	_putchar(10);
+	putchar(10);
 }
 
 void print_alphabet_x10(void)
@@ -58,9 +59,9 @@ void print_alphabet_x10(void)
 	{
 		for(i = 0; 1 < 26; i++)
 		{
-			_putchar(p_a[i]);
+			putchar(p_a[i]);
 		}
-	_putchar(10);
+	putchar(10);
 	}
 }
 #endif
