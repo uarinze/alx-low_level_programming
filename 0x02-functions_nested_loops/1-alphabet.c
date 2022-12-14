@@ -8,8 +8,6 @@
  * An array is generated and used to populate the characters
  * then _putchar is used to print them using for loop
  */
-
-
 void print_alphabet(void)
 {
 	int p_a[26];
