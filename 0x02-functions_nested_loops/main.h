@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 int print_putchar()
 {
 	int _putchar[] = {95, 112, 117, 116, 99, 104, 97, 114};
