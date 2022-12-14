@@ -25,8 +25,17 @@ int main(void)
 			p_a[b] = a;
 			b++;
 		}
-		print_alphabet();
+		
+		for (c = 65; c <= 90; c++)
+		{
+			p_a[d] = c;
+			d++;
+		}
 
-		return (0);
+		for (i = 0; i < 52; i++)
+		{
+			putchar(p_a[i]);
+		}
+		putchar(10);
 	}
 }
