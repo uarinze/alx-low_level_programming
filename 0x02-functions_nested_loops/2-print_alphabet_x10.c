@@ -1,11 +1,12 @@
 #include "main.h"
 
 /**
- * Description -  prints alphabets in lowercase ten times
- *
+ * print_alphabet_x10 - prints the alphabet ten times
+ * Description: This function prints the alphabets in
+ * lowercase characters from a - z ten times.
+ * it uses _putchar function..
  **/
-
-void print_alphabet_x10(void)
+ void print_alphabet_x10(void)
 {
 	int p_a[26];
 

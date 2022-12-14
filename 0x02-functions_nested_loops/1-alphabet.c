@@ -5,8 +5,6 @@
  * Description: This function prints the alphabets in
  * lowercase characters from a - z once.
  * it uses _putchar function once.
- * An array is generated and used to populate the characters
- * then _putchar is used to print them using for loop
  */
 void print_alphabet(void)
 {

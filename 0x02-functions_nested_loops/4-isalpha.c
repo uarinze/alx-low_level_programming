@@ -1,8 +1,10 @@
 #include "main.h"
 
 /**
- * checks if it is an alphabet
- *
+ * _isalpha - checks if the character is an alphabet
+ * @c - collects the value to be checked and determine if it is an alphabet  character
+ * Description: it checks a value stored in c if it is alphabet 
+ * It returns 1 when true and 0 if otherwise.
  **/
 
 int _isalpha(int c)
