@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int print_putchar()
+void print_putchar(void)
 {
 	int _putchar[] = {95, 112, 117, 116, 99, 104, 97, 114};
 	
