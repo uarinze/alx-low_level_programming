@@ -1,6 +1,10 @@
 #include "main.h"
 
-/*Description -  checks if it is lowercase */
+/**
+ *
+ * Description -  checks if it is lowercase
+ *
+ **/
 
 int _islower(int c)
 {

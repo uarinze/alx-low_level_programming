@@ -1,5 +1,10 @@
 #include "main.h"
 
+/**
+ * checks if it is an alphabet
+ *
+ **/
+
 int _isalpha(int c)
 {
 	int i;
