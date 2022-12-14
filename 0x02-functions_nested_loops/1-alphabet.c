@@ -1,13 +1,12 @@
 #include "main.h"
 
 /**
- * print-alphabet - prints the alphabet
- * It takes no argument and returns void
+ * print_alphabet: - prints the alphabet
  *
- * Description: this function prints the alphabets in 
+ * Description: this function prints the alphabets in
  * lowercase characters from a - z once.
  * it uses _putchar function once.
- * An array is generated and used to populate the characters 
+ * An array is generated and used to populate the characters
  * then _putchar is used to print them using for loop
  **/
 
