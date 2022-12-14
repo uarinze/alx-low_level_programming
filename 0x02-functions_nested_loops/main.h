@@ -1,3 +1,6 @@
+#ifndef HEADER_FILE
+#define HEADER_FILE
+
 #include <stdio.h>
 
 void print_putchar(void)
@@ -39,3 +42,5 @@ void print_alphabet(void)
 	}
 	putchar(10);
 }
+
+#endif
