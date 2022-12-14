@@ -15,7 +15,7 @@ void print_putchar(void)
 
 void print_alphabet(void)
 {
-	int p_a[] = {97..122, 65..90};
+	int p_a[] = {97 .. 122, 65 .. 90};
 
 	int i;
 
