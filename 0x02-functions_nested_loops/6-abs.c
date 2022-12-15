@@ -12,14 +12,16 @@
 int _abs(int n)
 {
 	int i;
-	
-	if (n > 0)
-		return (n);
-	else if (n == 0)
+
+	int j = n;
+
+	if (j > 0)
+		return (j);
+	else if (j == 0)
 		return (0);
 	else
 	{	
-		i = (n**)/(-n);
+		i = (j**)/(-j);
 		return (i)
 	}
 }
