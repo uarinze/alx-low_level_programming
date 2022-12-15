@@ -13,9 +13,9 @@ int _abs(int n)
 {
 	int i;
 	
-	if n > 0
+	if (n > 0)
 		return (n);
-	else if n == 0
+	else if (n == 0)
 		return (0);
 	else
 	{	
