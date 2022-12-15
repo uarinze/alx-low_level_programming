@@ -22,6 +22,6 @@ int _abs(int n)
 	else
 	{	
 		i = (j*j) / (-j);
-		return (i)
+		return (i);
 	}
 }
