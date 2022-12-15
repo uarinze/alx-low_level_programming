@@ -1,10 +1,13 @@
 #include "main.h"
 
 /**
- * _abs: - prints the sign of a number
+ * _abs: - returns the absolute value of a number
+ * @n: - takes the value to be checked
  *
  * Description: it calculates the absolute value
- * of a number.
+ * of a number. This is done my putting the number in 
+ * the variable and checking for its sign then returning
+ * its value.
  * Return: It returns the absolute value of a number.
  **/
 
@@ -18,7 +21,7 @@ int _abs(int n)
 		return (j);
 	else if (j == 0)
 		return (0);
-	else
+	else if (j < 0)
 	{	
 		i = (-j);
 		return (i);
