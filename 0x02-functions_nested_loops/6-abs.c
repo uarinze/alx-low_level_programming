@@ -13,6 +13,13 @@ int _abs(int n)
 {
 	int i;
 	
-	i = (n*n)/n;
-	return (i);
+	if n > 0
+		return (n);
+	else if n == 0
+		return (0);
+	else
+	{	
+		i = (n**)/(-n);
+		return (i)
+	}
 }
