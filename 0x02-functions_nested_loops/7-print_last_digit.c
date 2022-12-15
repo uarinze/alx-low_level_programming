@@ -16,11 +16,19 @@ int print_last_digit(int n)
 	int i;
 
 	if (j > 0)
+	{
 		j = j;
+		i = (j % 10);
+	}
 	else if (j == 0)
+	{
 		j = 0;
+		i = (j % 10);
+	}
 	else
+	{
 		j = (-j);
-	i = (j % 10);
+		i = (j % 10);
+	}
 	return (i);
 }
