@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _abs: - returns the absolute value of a number
+ * _abs - returns the absolute value of a number
  * @n: - takes the value to be checked
  *
  * Description: it calculates the absolute value
@@ -10,7 +10,6 @@
  * its value.
  * Return: It returns the absolute value of a number.
  **/
-
 int _abs(int n)
 {
 
