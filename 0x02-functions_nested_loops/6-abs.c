@@ -21,7 +21,7 @@ int _abs(int n)
 		return (0);
 	else
 	{	
-		i = (j**)/(-j);
+		i = (j*j) / (-j);
 		return (i)
 	}
 }
