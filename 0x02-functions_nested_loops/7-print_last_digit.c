@@ -31,6 +31,5 @@ int print_last_digit(int n)
 		i = (j % 10);
 	}
 
-	a = ((i*10) + i);
-	return (a);
+	return (i);
 }
