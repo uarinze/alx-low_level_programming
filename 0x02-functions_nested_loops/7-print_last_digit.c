@@ -31,5 +31,6 @@ int print_last_digit(int n)
 		i = (j % 10);
 	}
 
+	_putchar(i + 48);
 	return (i);
 }
