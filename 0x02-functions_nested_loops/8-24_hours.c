@@ -2,12 +2,13 @@
 
 /**
  *
- *
- *
- *
- *
+ * jack_bauer - prints the 24 hours and minutes
+ * 
+ * Description: it takes no argument
+ * prints the 24 hour time frame and minutes
+ * It does this for 24 hours
  */
-void jack_baur(void)
+void jack_bauer(void)
 {
 	int i, j;
 
