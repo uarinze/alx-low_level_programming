@@ -6,7 +6,7 @@
  * lowercase characters from a - z ten times.
  * it uses _putchar function..
  **/
- void print_alphabet_x10(void)
+void print_alphabet_x10(void)
 {
 	int p_a[26];
 
