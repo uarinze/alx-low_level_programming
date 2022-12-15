@@ -2,9 +2,9 @@
 
 /**
  * _islower - determines if the character entered is in lowercase
- * @c: collects a value and stores it as c and checks 
+ * @c: collects a value and stores it as c and checks
  * if it is a lowercase alphabet
- * 
+ *
  * Description -  checks if it is lowercase alphabet when called on a character
  * It tells if the character is lowercase.
  * Return: 1 if character is lower and 0 otherwise.
