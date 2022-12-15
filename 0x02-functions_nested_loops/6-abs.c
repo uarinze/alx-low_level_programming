@@ -2,9 +2,8 @@
 
 /**
  * _abs: - prints the sign of a number
- * @n:- collects the number to test
  *
- * Description: it calculates the absolut value
+ * Description: it calculates the absolute value
  * of a number.
  * Return: It returns the absolute value of a number.
  **/
@@ -21,7 +20,7 @@ int _abs(int n)
 		return (0);
 	else
 	{	
-		i = (j*j) / (-j);
+		i = (-j);
 		return (i);
 	}
 }
