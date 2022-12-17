@@ -10,11 +10,12 @@ void print_numbers(void)
 {
 	int i = 48;
 
-	while (i  < 58)
+	for (i = 48; i <= 57; i++)
 	{
-		if (i == 50 || i == 52)
-		{
+		if (i == 50 || i == 53)
 			continue;
+		else
+			break;
 		}
 		_putchar(i);
 	}
