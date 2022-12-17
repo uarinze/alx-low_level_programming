@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * prints numbers from 0 - 9 omitting 2 and 4
+ * print_most_numbers - pirints numbers
+ * from 0 - 9 omitting 2 and 4
  *
  * Description: this function prints numbers
  * from 0 - 9. it doesn't return a value
