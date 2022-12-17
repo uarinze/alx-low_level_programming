@@ -5,7 +5,7 @@
  * is a digit.
  * @c: collects a value
  *
- * Description: checks if the caracter is digit 
+ * Description: checks if the character is digit
  * Return: 1 if digit, 0 otherwiser
  */
 int _isdigit(int c)
