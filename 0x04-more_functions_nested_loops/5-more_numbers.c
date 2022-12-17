@@ -1,5 +1,10 @@
 #include "main.h"
 
+/**
+ * more_numbers - prints the numbers 0 to 14
+ *
+ * Description: prints more numbers from 0 to 14
+ */
 void more_numbers(void)
 {
 	int i, j;
