@@ -8,7 +8,9 @@
  */
 void print_square(int size)
 {
-	int dim1; dim2;
+	int dim1; 
+	
+	int dim2;
 
 	if (size > 0)
 	{
