@@ -1,6 +1,7 @@
 #include "main.h"
 
-/** _isupper - determines if the character entered
+/**
+ * _isupper - determines if the character entered
  * is uppercase.
  * @c: collects a value
  *
@@ -10,6 +11,7 @@
 int _isupper(int c)
 {
 	int i = c;
+
 	if (i >= 65 && i <= 90)
 		return (1);
 	else
