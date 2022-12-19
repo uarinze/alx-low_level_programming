@@ -4,7 +4,7 @@
  * print_triangle - prints a triangle.
  * @size:this is the only argument
  *
- * Description: the function prints a 
+ * Description: the function prints a
  * triangle using special chracters.
  */
 void print_triangle(int size)
