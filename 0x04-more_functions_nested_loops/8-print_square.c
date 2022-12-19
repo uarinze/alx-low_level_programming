@@ -8,20 +8,21 @@
  */
 void print_square(int size)
 {
-	int dim1; 
+	int i;
 	
-	int dim2;
+	int j;
 
 	
 	if (size > 0)
 	{
-		for (dim1 = 0; dim1 < size; dim1++)
+		for (i = 1; i <= size; i++)
 		{
-			for (dim2 = 0; dim2 < size; dim2++)
+			for (j = 1; j <= size; j++)
 			{
-				_putchr(35);
+				_putchar(35);
 			}
+			_putchar('\n');
 		}
 	}
-	_putchar(10);
+	else (_putchar(10));
 }
