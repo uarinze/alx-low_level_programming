@@ -26,7 +26,7 @@ int main(void)
 				num /= x;
 		}
 	}
-	printf("%ld\n". num);
+	printf("%ld\n", num);
 
 	return (0);
 }
