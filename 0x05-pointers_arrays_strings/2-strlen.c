@@ -1,0 +1,20 @@
+#include "main.h"
+
+/**
+ * _strlen - returns the length of a string
+ *@s: - a pointer as an argument
+ *
+ * Description: this function takes a pointer to a char
+ * as parameter and returns the length of the string.
+ * Return: returns an int
+ */
+int _strlen(char *s)
+{
+
+	int i;
+	int j = 0;
+
+	for (i = 0; *(s + i) != 0; i++)
+		j++;
+
+	return (j);
