@@ -17,16 +17,12 @@ void print_rev(char *s)
 		i++;
 	}
 
-	int length;
-
-	length = i;
-
-	char a[length] = *s;
+	int len = i;
 	int j;
 
-	for (j = length; j >= 0; j--)
+	for (j = len; j >= 0; j--)
 	{
-		_putchar(a[j]);
+		_putchar(*(s + j));
 	}
 	_putchar('\n');
 
