@@ -28,6 +28,6 @@ void rev_string(char *s)
 		x[k] = s[j];
 		k++;
 	}
-	s = k;
+	s = x;
 
 }
