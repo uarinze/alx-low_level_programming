@@ -13,7 +13,6 @@ void print_rev(char *s)
 	int i = 0;
 	int j;
 	int len;
-	char x[len];
 
 	while (*(s + i) != '\0')
 	{
@@ -24,8 +23,7 @@ void print_rev(char *s)
 
 	for (j = (len - 1); j >= 0; j--)
 	{
-		x[j] = *(s + j);
+		_putchar(s[j]);
 	}
-
-	*s = x;
+	_putchar('\n');
 }
