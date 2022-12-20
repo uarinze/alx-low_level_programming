@@ -7,12 +7,14 @@
  * description: this function takes a string and
  * reverses it.
  */
-void print_rev(char *s)
+void rev_string(char *s)
 {
 
 	int i = 0;
 	int j;
 	int len;
+	int k = 0;
+	char x[20];
 
 	while (*(s + i) != '\0')
 	{
@@ -23,7 +25,9 @@ void print_rev(char *s)
 
 	for (j = (len - 1); j >= 0; j--)
 	{
-		_putchar(s[j]);
+		x[k] = s[j];
+		k++;
 	}
-	_putchar('\n');
+	s = k;
+
 }
