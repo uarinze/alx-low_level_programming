@@ -17,6 +17,8 @@ void print_rev(char *s)
 		i++;
 	}
 
+	int length;
+
 	length = i;
 
 	char a[length] = *s;
