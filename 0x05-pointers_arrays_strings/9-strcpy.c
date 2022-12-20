@@ -11,7 +11,7 @@
  * locatino to another.
  * Return: It returns the copied string.
  */
-char _strcpy(char *dest, char *src)
+char *_strcpy(char *dest, char *src)
 {
 	dest = src;
 
