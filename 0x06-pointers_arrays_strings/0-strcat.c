@@ -19,10 +19,10 @@ char *_strcat(char *dest, char *src)
 	int n = j;
 
 	while (*(src + i) != '\0')
-		i++;
+		++i;
 
 	while (*(dest + j) != '\0')
-		j++;
+		++j;
 
 	for (k = j; k < (i + j); k++)
 	{
