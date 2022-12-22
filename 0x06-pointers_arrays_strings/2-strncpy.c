@@ -32,7 +32,7 @@ char *_strncpy(char *dest, char *src, int n)
 		}
 	}
 	else 
-		for (k = i; k <= n; k++)
+		for (k = j; k == (n + 1); k++)
 		{
 			dest[j] = '\0';
 		}
