@@ -6,7 +6,7 @@
  * @src: - second argumet which is the string to append to dest.
  * @n: - third argument which is the max bytes to cpy from src
  *
- * Description: this function appends the src string
+ * Description: this function copies the src string
  * to the dest string, overwriting the terminating null
  * byte (\0) at the end of dest, and then adds a terminating null byte
  * Return: It returns the copied string.
@@ -24,10 +24,18 @@ char *_strncpy(char *dest, char *src, int n)
 	{
 		dest[j] = src[j];
 	}
-	for (k = i; k < n; k++)
+	if (i < n)
 	{
-		dest[j] = '\0';
+		for (k = i; k < n; k++)
+		{
+			dest[j] = '\0';
+		}
 	}
+	else 
+		for (k = i; k < (n + 1); k++)
+		{
+			dest[j] = '\0';
+		}
 
 	return (dest);
 }
