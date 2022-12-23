@@ -7,7 +7,7 @@
  *
  * description: reverses an array
  */
-void reverse_array(int *a, iny n)
+void reverse_array(int *a, int n)
 {
 	int b;
 	int i;
