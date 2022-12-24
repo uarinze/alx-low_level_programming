@@ -2,10 +2,10 @@
 
 /**
  * cap_string - capitalises all words of a string
- * @str - first integer
+ * @str: - first integer
  *
  * description: it capitalises all words os a string
- * Return : it returns char
+ * Return: it returns char
  */
 char *cap_string(char *str)
 {
