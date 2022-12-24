@@ -4,7 +4,7 @@
  *@str: string to encode
  *
  *description: encodes a string to rot13
-return: returns an encoded string
+ *Return: returns an encoded string
  */
 char *rot13(char *str)
 {
@@ -14,6 +14,7 @@ char *rot13(char *str)
 	char a[52] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 
 	char b[52] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
+
 	for (i = 0; *(str + i) != '\0'; i++)
 	{
 		for (j = 0; j < 52; j++)
