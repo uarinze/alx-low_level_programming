@@ -2,10 +2,10 @@
 
 /**
  * cap_string - capitalises all words of a string
- * @* - first integer
+ * @str - first integer
  *
  * description: it capitalises all words os a string
- * return : it returns char
+ * Return : it returns char
  */
 char *cap_string(char *str)
 {
@@ -15,19 +15,19 @@ char *cap_string(char *str)
 	{
 		while (!(str[i] >= 'a' && str[i] <= 'z'))
 			i++;
-		if (str[i - 1] == ' ' || 
-				str[i - 1] == '\t' || 
-				str[i - 1] == '\n' || 
-				str[i - 1] == ',' || 
-				str[i - 1] == ';' || 
-				str[i - 1] == '.' || 
-				str[i - 1] == '!' || 
-				str[i - 1] == '?' || 
-				str[i - 1] == '"' || 
-				str[i - 1] == '(' || 
-				str[i - 1] == ')' || 
-				str[i - 1] ==  '{' || 
-				str[i - 1] == '}' || 
+		if (str[i - 1] == ' ' ||
+				str[i - 1] == '\t' ||
+				str[i - 1] == '\n' ||
+				str[i - 1] == ',' ||
+				str[i - 1] == ';' ||
+				str[i - 1] == '.' ||
+				str[i - 1] == '!' ||
+				str[i - 1] == '?' ||
+				str[i - 1] == '"' ||
+				str[i - 1] == '(' ||
+				str[i - 1] == ')' ||
+				str[i - 1] ==  '{' ||
+				str[i - 1] == '}' ||
 				i == 0)
 		{
 			str[i] = str[i] - 32;
@@ -35,5 +35,5 @@ char *cap_string(char *str)
 		i++;
 	}
 
-	return(str);
+	return (str);
 }
