@@ -63,7 +63,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size size_r)
 			overflow = 1;
 		else
 			overflow = 0;
-		if (digits >= (size_r - 1)
+		if (digits >= (size_r - 1))
 			return (0);
 		*(r + digits) = (tmp_sum % 10) + '0';
 		digits++;
