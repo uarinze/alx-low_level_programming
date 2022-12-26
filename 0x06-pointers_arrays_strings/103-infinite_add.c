@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * rev_string - reverse array
  * @n: first argument
@@ -12,12 +13,12 @@ void rev_string(char *n)
 	int len = 0;
 	char tmp;
 	for (i = 0; *(n + i) != '\0'; i++)
-		len += i;
+		len = i;
 	for (j = 0; j < len; j++, len--)
 	{
 		tmp = *(n + j);
-		*(n + j) = *(n + i);
-		*(n + i) = tmp;
+		*(n + j) = *(n + len);
+		*(n + len) = tmp;
 	}
 }
 /**
