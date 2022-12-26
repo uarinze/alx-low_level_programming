@@ -10,15 +10,18 @@ void rev_string(char *n)
 {
 	int i;
 	int j;
-	int len = 0;
 	char tmp;
-	for (i = 0; *(n + i) != '\0'; i++)
-		len = i;
-	for (j = 0; j < len; j++, len--)
+	while(*(n + i) != '\0')
+	{
+		i++;
+	}
+	i--;
+
+	for (j = 0; j < i; j++, i--)
 	{
 		tmp = *(n + j);
-		*(n + j) = *(n + len);
-		*(n + len) = tmp;
+		*(n + j) = *(n + i);
+		*(n + i) = tmp;
 	}
 }
 /**
@@ -30,7 +33,7 @@ void rev_string(char *n)
  *
  * Return: - pointer to calling function
  */
-char *infinite_add(char *n1, char *n2, char *r, int size size_r)
+char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
 	int overflow = 0;
 	int i = 0;
@@ -38,7 +41,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size size_r)
 	int digits = 0;
 	int val1 = 0;
 	int val2 = 0;
-	tmp_sum = 0;
+	int tmp_sum = 0;
 
 	while (*(n1 + i) != '\0')
 		i++;
@@ -71,7 +74,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size size_r)
 		i--;
 	}
 	if (digits == size_r)
-	return (0);
+		return (0);
 	*(r + digits) = '\0';
 	rev_string(r);
 	return (r);
