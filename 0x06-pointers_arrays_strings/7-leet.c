@@ -1,25 +1,26 @@
 #include "main.h"
 
 /**
- * leet - encode a string intp 1337.
- * @: - third argument which is the max bytes to cpy from src
+ * leet - encode a string into 1337.
+ * @*str - string argument
  *
  * Description: it encodes a string.
  * Return: It returns the encoded string.
  */
 char *leet(char *str)
 {
-	int i = 0;
+	int i;
 	int j;
-	char leet[8] = {'O', 'L', '?', 'E', 'A', '?', '?', 'T'};
+	char al[10] = "aAeEoOtTlL";
+	char num[10] = "4433007711";
 
-	while (str[i])
+	for (i = 0; str[i] != '\0'; i++)
 	{
-		for (j = 0; j <= 7; j++)
+		for (j = 0; j <10; j++)
 		{
-			if (str[i] == leet[j] || str[i] - 32 == leet[j])
-				str[i] = j  = '0';
+			if (str[i] == al[j])
+				str[i] = num[j];
 		}
-		i++;
-		return(str):
 	}
+	return (str);
+}
