@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 
 /**
  * _memset - fills memorry with a aconstant byte.
@@ -18,6 +19,6 @@ char *_memset(char *s, char b, unsigned int n)
 	{
 		*(s + i) = b;
 	}
-	_putchar('\n');
+
 	return (s);
 }
