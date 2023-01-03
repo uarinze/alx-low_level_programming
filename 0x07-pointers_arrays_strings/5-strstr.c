@@ -7,12 +7,12 @@
  *
  * Description: this function finds the first
  * occurence of the substring needle in the
- * string haystack. The terminating nullbytes ('\0')
- * are not compared.
+ * string haystack. The terminating nullbytes
+ * ('\0') are not compared.
  * 
  * Return: It returns a pointer to the begining
- * of the located substring, or NULL if the substring
- * is not found.
+ * of the located substring, or
+ * NULL if the substring is not found.
  */
 char *_strstr(char *haystack, char *needle)
 {
