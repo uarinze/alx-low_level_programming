@@ -3,7 +3,7 @@
 /**
  * _print_chessboard - prints te chessboard
  * @a: - is a pointer to string.
- * 
+ *
  * Description: this function prints the
  * chessboard.
  */
@@ -21,7 +21,7 @@ void print_chessboard(char (*a)[8])
 				_putchar(a[i][j]);
 				_putchar('\n');
 			}
-			else 
+			else
 				_putchar(a[i][j]);
 		}
 	}
