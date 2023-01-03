@@ -9,7 +9,7 @@
  * occurence of the substring needle in the
  * string haystack. The terminating nullbytes
  * ('\0') are not compared.
- * 
+ *
  * Return: It returns a pointer to the begining
  * of the located substring, or
  * NULL if the substring is not found.
@@ -26,13 +26,13 @@ char *_strstr(char *haystack, char *needle)
 		i = 0;
 		if (*(haystack + i) == *(needle + i))
 		{
-			do{
+			do {
 				if (*(needle + i + 1) == '\0')
-					return(haystack);
+					return (haystack);
 				i++;
 			} while (*(haystack + i) == *(needle + i));
 		}
 		haystack++;
 	}
 	return ('\0');
-}	
+}
