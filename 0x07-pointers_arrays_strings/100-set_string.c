@@ -2,7 +2,6 @@
 
 /**
  * set_string -sets the value of a pointer
- * to a char.
  * @s: - first argument pointer to string
  * @to: - copies this to the first
  *
