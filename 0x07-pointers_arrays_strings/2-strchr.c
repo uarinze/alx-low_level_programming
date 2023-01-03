@@ -7,6 +7,7 @@
  *
  * Description: this function returns a pointer
  * to the first occurence of c in string s.
+ *
  * Return: It returns a pointer to c in s.
  */
 char *_strchr(char *s, char c)
