@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _print_chessboard - prints te chessboard
+ * print_chessboard - prints the chessboard
  * @a: - is a pointer to string.
  *
  * Description: this function prints the
