@@ -2,12 +2,12 @@
 
 /**
  * _strchr - locates a character in a string.
- * @s: - first argument which is a pointer to the destination memory.
- * @c: - second argumet which is a pointer to source memory.
+ * @s: - is a pointer to string..
+ * @c: - is the character to search for.
  *
- * Description: this function copies n bytes from memory area src
- * to memory area dest.
- * Return: It returns a pointer to dest.
+ * Description: this function returns a pointer
+ * to the first occurence of c in string s.
+ * Return: It returns a pointer to c in s.
  */
 char *_strchr(char *s, char c)
 {
