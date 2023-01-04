@@ -2,10 +2,10 @@
 
 /**
  * set_string - sets the value of a pointer
- * @s: first argument pointer to string
- * @to: copies this to the first
+ * @s: - first argument, is a pointer to string.
+ * @to: - copies this to the first.
  *
- * Description:  function that sets the value
+ * Description: this function sets the value
  * of a pointer to a char.
  */
 void set_string(char **s, char *to)
