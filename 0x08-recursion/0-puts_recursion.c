@@ -1,5 +1,12 @@
 #include "main.h"
 
+/**
+ * _puts_recursion - prints a string follwed by a
+ * new line
+ * @c: - character argument
+ *
+ * Desctription: prints a string follwed by \n
+ */
 void _puts_recursion(char *s)
 {
 	if (*s == '\0')
