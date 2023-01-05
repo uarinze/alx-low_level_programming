@@ -3,7 +3,7 @@
 /**
  * _puts_recursion - prints a string follwed by a
  * new line
- * @s - string to print
+ * @s: - string to print
  *
  * Desctription: prints a string follwed by \n
  */
