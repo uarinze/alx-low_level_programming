@@ -3,7 +3,7 @@
 int n_sqrt(int m, int r);
 
 /**
- * n_sqrt: finds the natural square root of a number
+ * n_sqrt - finds the natural square root of a number
  * @m: - the number to fiind the root
  * @r: - the root to be tested
  *
@@ -21,14 +21,14 @@ int n_sqrt(int m, int r)
 	if (r == m / 2)
 		return (-1);
 
-	return(n_sqrt(m, r + 1));
+	return (n_sqrt(m, r + 1));
 }
 
 /**
  * _sqrt_recursion - returns the natural square
  * root of a number n.
  * @n: - number
- * 
+ *
  * Desctription: returns the natural square
  * root of n
  *
