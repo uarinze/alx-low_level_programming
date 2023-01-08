@@ -7,7 +7,8 @@
  * @argc: argument count
  * @argv: argument vector
  *
- * Return: - return 0 (Success)
+ * Return: - return 0 (Success) or 1 if the
+ * number of argument is not exactly 1
  */
 int main(int argc, char **argv)
 {
@@ -35,7 +36,7 @@ int main(int argc, char **argv)
 		}
 		if ((cents - 5) >= 0)
 		{
-			cents -= 10;
+			cents -= 5;
 			continue;
 		}
 		if ((cents - 2) >= 0)
