@@ -23,7 +23,9 @@ char *create_array(unsigned int size, char c)
 	if (size == 0)
 		return (NULL);
 
-	arr = (char *)malloc((sizeof(char) * size) + 1);
+	arr = (char *)malloc((sizeof(char) * size));
+	if (arr == 0)
+		return (NULL);
 
 	for (i = 0; i < x; i++)
 	{
