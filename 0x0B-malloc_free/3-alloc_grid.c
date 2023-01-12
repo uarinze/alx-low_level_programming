@@ -6,7 +6,8 @@
  * @width: first argument width
  * @height: second argument height
  *
- * Returns: NULL on failure or if width or
+ * Description: returns a 2D aay of int
+ * Return: NULL on failure or if width or
  * height is negative.
  */
 int **alloc_grid(int width, int height)
@@ -16,8 +17,8 @@ int **alloc_grid(int width, int height)
 
 	if (width <= 0 || height <= 0)
 		return (NULL);
-	
-	matrix = malloc(width *(sizeof(int *)));
+
+	matrix = malloc(width * (sizeof(int *)));
 	if (matrix == 0)
 		return (NULL);
 
@@ -28,7 +29,7 @@ int **alloc_grid(int width, int height)
 		{
 			for (; i >= 0; i--)
 				free(matrix[i]);
-			free (matrix);
+			free(matrix);
 			return (NULL);
 		}
 	}
