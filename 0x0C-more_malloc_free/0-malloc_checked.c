@@ -2,12 +2,14 @@
 #include <stdlib.h>
 
 /**
- * malloc_checked - allocates memorry using malloc
+ * malloc_checked - allocates memory
  * @b: - amount of space to allocate.
  *
- * Description: - allocates memory using malloc
- * Return: returns a pointer to the allocated memory
- * if malloc fails, malloc_checked should return 98
+ * Description: - allocates memory
+ * using malloc
+ * Return: returns a pointer to the
+ * allocated memory. if malloc fails,
+ * malloc_checked should return 98
  * and cause normal process termination.
  */
 void *malloc_checked(unsigned int b)
