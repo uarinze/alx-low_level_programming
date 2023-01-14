@@ -42,7 +42,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	unsigned int len_s2 = 0;
 	unsigned int cat_len = 0;
 	char *cat;
-	unsigned int i, j;	
+	unsigned int i, j;
 
 	if (s1 == NULL)
 		s1 = "";
