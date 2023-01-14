@@ -6,6 +6,7 @@
  *
  * Return: returns the lenght of a str
  */
+/**
 int _len(char* x)
 {
 	int i;
@@ -15,7 +16,7 @@ int _len(char* x)
 		j++;
 	return (j);
 }
-
+*/
 /**
  * string_nconcat - concatenates strings
  * @s1: - first argument string.
@@ -32,11 +33,12 @@ int _len(char* x)
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	int len_s1 = 0;
-	int len_s2 = 0;
-	int cat_len = 0;
+	unsigned int len_s1 = 0;
+	unsigned int len_s2 = 0;
+	unsigned int cat_len = 0;
 	char* cat;
-	int i, j, k;
+	unsigned int i, j;
+	unsigned int k = 0;
 
 	if (s1 == NULL)
 		s1 = "";
@@ -44,10 +46,17 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (s2 == NULL)
 		s2 = "";
 
-	len_s1 = _len(s1);
-	len_s2 = _len(s2);
+	while (s1)
+		len_s1++;
+	while (s2)
+		len_s2++;
+/**	len_s1 = _len(s1);
+	len_s2 = _len(s2);**/
 	cat_len = (len_s1 + n + 1);
 	cat = malloc(sizeof(char) * cat_len);
+
+	if (cat == 0)
+		return (NULL);
 
 	if (n >= len_s2)
 		n = len_s2;
@@ -58,13 +67,10 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	}
 	for (j = 1; j <= n; j++)
 	{
-		cat[(len_s1 + j)] = s2[(k)];
+		cat[len_s1 + j] = s2[k];
 		k++;
 	}
 	cat[cat_len] = '\0';
 	
-	if (cat == 0)
-		return (NULL);
-
 	return (cat);
 }
