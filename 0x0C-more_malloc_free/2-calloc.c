@@ -3,7 +3,7 @@
 
 /**
  * _calloc - allocates memory for an array
- * @nmemb: first argument - 
+ * @nmemb: first argument
  * @size: second argument
  *
  * Return: NULL if nmemb if malloc fails
@@ -25,5 +25,6 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	{
 		buffer[(size * nmemb)] = '\0';
 	}
-	return(x);
+	
+	return (x);
 }
