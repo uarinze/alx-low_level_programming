@@ -1,0 +1,70 @@
+#include "main.h"
+#include <stdlib.h>
+
+/** _len - counts the length of str
+ * @x: str to count
+ *
+ * Return: returns the lenght of a str
+ */
+int _len(char* x)
+{
+	int i;
+	int j = 0;
+
+	while (*(x + i) != '\0')
+		j++;
+	return (j);
+}
+
+/**
+ * string_nconcat - concatenates strings
+ * @s1: - first argument string.
+ * @s2: - secons argument string.
+ * @n: - n bytes to concatenate from s2.
+ *
+ * Description: - concatenates two strings
+ * Return: returns a pointer to the
+ * allocated memory which contains s1
+ * follwed by first n bytes of s2 and
+ * null terminated. if function fails,
+ * return NULL. if NULL is passed then
+ * treat as "".
+ */
+char *string_nconcat(char *s1, char *s2, unsigned int n)
+{
+	int len_s1 = 0;
+	int len_s2 = 0;
+	int cat_len = 0;
+	char* cat;
+	int i, j, k;
+
+	if (s1 == NULL)
+		s1 = "";
+
+	if (s2 == NULL)
+		s2 = "";
+
+	len_s1 = _len(s1);
+	len_s2 = _len(s2);
+	cat_len = (len_s1 + n + 1);
+	cat = malloc(sizeof(char) * cat_len);
+
+	if (n >= len_s2)
+		n = len_s2;
+	
+	for (i = 0; i < len_s1; i++)
+	{
+		cat[i] = s1[i];
+	}
+	for (j = 1; j <= n; j++)
+	{
+		cat[(len_s1 + j)] = s2[(k)];
+		k++;
+	}
+	cat[cat_len] = '\0';
+	
+	if (cat == 0)
+		return (NULL);
+
+	return (cat);
+}
