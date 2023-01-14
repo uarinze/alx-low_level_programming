@@ -10,21 +10,20 @@
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	void *x;
-	char *buffer;
+	char *mem;
 	unsigned int i;
+	unsigned int len;
 
 	if (nmemb == 0 || size == 0)
 		return (NULL);
+	len = nmemb * size;
+	mem = malloc(nmemb * size);
 
-	x = malloc(size * nmemb);
-	if (x == NULL)
+	if (mem == 0)
 		return (NULL);
-	buffer = x;
-	for (i = 0; i < (size * nmemb); i++)
-	{
-		buffer[(size * nmemb)] = '\0';
-	}
-	
-	return (x);
+
+	for (i = 0; i < len; i++)
+		mem[i] = 0;
+
+	return (mem);
 }
