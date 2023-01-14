@@ -1,13 +1,14 @@
 #include "main.h"
 #include <stdlib.h>
 
-/** _len - counts the length of str
+/**
+ * _len - counts the length of str
  * @x: str to count
  *
  * Return: returns the lenght of a str
  */
 
-int _len(char* x)
+int _len(char *x)
 {
 	int i = 0;
 	int j = 0;
@@ -39,7 +40,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	unsigned int len_s1 = 0;
 	unsigned int len_s2 = 0;
 	unsigned int cat_len = 0;
-	char* cat;
+	char *cat;
 	unsigned int i, j;
 	unsigned int k = 0;
 
@@ -63,7 +64,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		k++;
 	}
 	cat[cat_len] = '\0';
-	
 	return (cat);
 	free(cat);
 }
