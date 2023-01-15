@@ -34,7 +34,7 @@ char *argstostr(int ac, char **av)
 		return (NULL);
 
 	i = 0;
-	
+
 	for (ar = 0; ar < ac; ar++)
 	{
 		for (b = 0; av[ar][b]; b++)
@@ -45,5 +45,5 @@ char *argstostr(int ac, char **av)
 	}
 	str[n] = '\0';
 
-	return(str);
+	return (str);
 }
