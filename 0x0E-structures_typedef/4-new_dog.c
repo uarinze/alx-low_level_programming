@@ -6,7 +6,7 @@ char *_strcpy(char *dest, char *src);
 
 /**
  * _strlen - finds length of string
- * @str: string 
+ * @str: string
  *
  * Return: returns the length
  */
@@ -14,6 +14,7 @@ int _strlen(char *str)
 {
 	int i;
 	int len = 0;
+
 	for (i = 0; *(str + i) != '\0'; i++)
 		len++;
 	return (len);
@@ -67,6 +68,8 @@ dog_t *new_dog(char *name, float age, char *owner)
 		free(dg->owner);
 		return (NULL);
 	}
+	if (age < 0)
+		return (NULL);
 
 	dg->name = _strcpy(dg->name, name);
 	dg->age = age;
