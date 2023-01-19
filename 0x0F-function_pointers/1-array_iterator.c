@@ -14,6 +14,12 @@ void array_iterator(int *array, size_t size, void(*action)(int))
 	int i;
 	int j = (int)size;
 
+	if (array == 0)
+		return;
+
+	if (action == 0)
+		return;
+
 	for (i = 0; i < j; i++)
 	{
 		action(*(array + i));
