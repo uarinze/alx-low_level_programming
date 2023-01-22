@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/**main - prints its opcodes
+/**
+ * main - prints its opcodes.
  * @argc: argument count
  * @argv: argument vector
  *
@@ -11,7 +12,7 @@ int main(int argc, char **argv)
 {
 	int i;
 	int j;
-	int (*adrs)(int , char **) = main;
+	int (*adrs)(int, char **) = main;
 	unsigned char opcode;
 
 	if (argc != 2)
