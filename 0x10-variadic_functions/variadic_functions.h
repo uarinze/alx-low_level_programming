@@ -3,6 +3,17 @@
 
 #include <stdarg.h>
 
+/**
+ * struct printer - it defines a printer
+ * @symbol: represents data type
+ * @print: a new 
+ */
+typedef struct printer
+{
+	char *symbol;
+	void (*print)(va_list arg);
+} printer_t;
+
 int sum_them_all(const unsigned int n, ...);
 
 void print_numbers(const char *separator, const unsigned int n, ...);
