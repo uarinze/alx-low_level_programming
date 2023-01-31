@@ -6,7 +6,7 @@
 /**
  * struct printer - it defines a printer
  * @symbol: represents data type
- * @print: a new 
+ * @print: a new
  */
 typedef struct printer
 {
