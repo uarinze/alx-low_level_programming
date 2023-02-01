@@ -34,7 +34,7 @@ size_t loop_list(const listint_t *head)
 				fast = fast->next;
 			}
 			slow = slow->next;
-			while(slow != fast)
+			while (slow != fast)
 			{
 				nodes++;
 				slow = slow->next;
@@ -68,7 +68,7 @@ size_t print_listint_safe(const listint_t *head)
 			head = head->next;
 		}
 	}
-	else 
+	else
 	{
 		for (index = 0; index < nodes; index++)
 		{
